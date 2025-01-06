@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             SizedBox(height: 35),
-            OutlinedButton(
+            TextButton(
               onPressed: showNextFortune,
               child: Image.asset(
                 "assets/images/coockie.png",
